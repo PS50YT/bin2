@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#129517;Indoca Launcher</title>
+    <style>
+    
+    body {
+    background-color: black;
+    font-family: boldjiOP;
+    color: #f1f1f1;
+    }
+
+
+    #kesar {
+        text-decoration-color: #1bd96a;
+        color: #1bd96a;
+      }
+    
+      #kesar:link {
+  color: #1bd96a;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#kesar:visited {
+  color: #1bd96a;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#kesar:hover {
+  color: #1bd96a;
+}
+
+#kesar:active {
+  color: #1bd96a;
+}
+
+@font-face {
+  font-family: 'boldjiOP';
+  src: url(assests/Montserrat-Bold.otf);
+}
+
+.tab {
+  overflow: hidden;
+  background-color: #292929;
+  border-radius: 30px;
+  color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: #f1f1f1;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #1bd96a;
+  border-radius: 30px;
+  color: #f1f1f1;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #1bd96a;
+  border-radius: 30px;
+  color: #f1f1f1;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+#afor {
+  background-color: #292929;
+  border-radius: 30px;
+  text-align: left;
+  padding: 25px;
+}
+
+#dd {
+  background-color: #1bd96a;
+  color: #f1f1f1;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <div id="kesar"><a href="index.html" id="kesar">Indoca Launcher</a><b> /</b> <a href="browse.html" id="kesar">Discover Content</a></div><br>
+
+    <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Mods</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Server</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Plug-ins</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <br>
+  <iframe src="https://eaglerrinth.github.io/" height="1000" width="100%"></iframe>
+</div>
+
+<div id="Paris" class="tabcontent">
+<iframe src="https://topeaglerservers.com/" height="1000" width="100%"></iframe>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+ <div id="afor">
+  <h1>EaglerXServer</h1><br>
+  <p>A Spigot, BungeeCord, and Velocity plugin that allows Eaglercraft 1.5.2, EaglercraftX 1.8, and Eaglercraft 1.12.2 players to join your Java Edition server.
+<br>
+Updating to EaglerXServer is highly recommended if you are currently using EaglerXBungee or EaglerXVelocity on your server.</p>
+<a id='dd' href="https://github.com/lax1dude/eaglerxserver/releases">Download</a>
+ </div>
+</div>
+
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+</body>
+</html>

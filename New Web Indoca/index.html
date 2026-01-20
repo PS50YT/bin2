@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;
+background-image: url(assests/webp/images\ \(1\).jpg);
+margin: 0;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 5000px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  
+  width: 70%;
+  border-left: none;
+  height: 500px;
+  display: none;
+  text-align: left;
+}
+
+/* Clear floats after the tab */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*NEXT*/
+ summary {
+  padding: 4px;
+  width: 200px;
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
+
+details > p {
+  background-color: #eeeeee;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  text-align: left;
+}
+
+#hibrok:hover {
+  font-size: 45px;
+}
+
+#hibrok {
+  border-top: #64cb55;
+  border-right: #316c42;
+  border-bottom: #204c2d;
+  border-left: #316c42;
+  border-width: 10px;
+  border-style: solid;
+  background-color: #3f8e4f;
+}
+
+#hibrok:hover {
+  border-top: #6fda63;
+  border-right: #3c7b50;
+  border-bottom: #2c5b3c;
+  border-left: #3c7b50;
+  border-width: 4px;
+  border-style: solid;
+  background-color: #479b5c;
+}
+
+#hibrok {
+  width: var(--game-btn-width);
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: 'Minecraft 10';
+  color: var(--text);
+  height: var(--game-btn-height);
+color: #eeeeee;
+text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Minecraft 10';
+  src: url(assests/MinecraftRegular-Bmg3.otf);
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<img src="assests/Indoca-Laucher.png" width="50%" height="50%">
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Original</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Modded</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">More</button>
+</div>
+<div id="London" class="tabcontent">
+
+  <h1>Recommended Minecraft versions</h1>
+<button><details>
+	<summary>1.8.8</summary>
+	<a id="hibrok" href="assests/eaglercraft.dev_Release_1.8.8_WASM.html">  Play  </a>
+  <img src="assests/webp/Java_Edition_1.8.8.webp" width="100%" height="100%">
+  <p>Minecraft 1.8.8 is one of the most loved versions of Minecraft by players all over the world. If you are someone who loves building, exploring, and having fun with friends, minecraft 1.8.8 gives you many cool things to enjoy. In this version, you can experience smoother gameplay, new blocks, and exciting features that make the game more fun. Many players also prefer this version for its simple controls and stable performance. Whether you are playing alone or on a server with friends, minecraft 1.8.8 makes every moment exciting. You can build your dream world, fight mobs, and try out new skins and mods that work perfectly with this version. It is also great for people who want to enjoy Minecraft without too many complicated updates.
+<br>
+One of the best things about minecraft 1.8.8 is how friendly it is for both beginners and advanced players. You can easily install mods, play mini-games, and enjoy multiplayer servers without facing many problems. Many Minecraft communities still love this version because it feels classic but has enough new features to stay interesting. You can explore caves, find treasures, fight monsters, and even create amazing redstone machines that work perfectly in minecraft 1.8.8. This version is also perfect for YouTubers and streamers who want smooth gameplay for videos. If you want to enjoy Minecraft like many players did in the past while still having modern fun, minecraft 1.8.8 is the best choice. It is stable, fun, and full of possibilities for everyone who loves Minecraft.
+</p><br>
+<h2>Minecraft 1.8.8 comes with some exciting features:</h2>
+<br><p>
+#Smooth gameplay: The game runs without many glitches, making it perfect for both new and old players.<br>
+#PvP ready: Players enjoy fast combat mechanics for multiplayer fights.<br>
+#Mods and plugins: Minecraft 1.8.8 supports many mods that make the game more fun.<br>
+#Stable servers: Most popular servers still support this version, so you can play online easily.<br>
+#Redstone creativity: Build amazing machines and traps using redstone.<br>
+  </p>
+</details></button>
+
+<br><br>
+
+<button><details>
+	<summary>1.12.2</summary>
+	<a id="hibrok" href="assests/eaglercraft.dev_Release_1.12.2_WASM.html">  Play  </a>
+  <img src="https://minecraft.wiki/images/Java_Edition_1.12.2.png?78fe0&format=original" width="100%" height="100%">
+  <p>1.12.2 is a minor update for Java Edition that was released on September 18, 2017, which fixes bugs.[2] It is not compatible with 1.12 and 1.12.1 servers. This is the first version of Java Edition (originally just called Minecraft) to display the new official title, Minecraft: Java Edition.</p>
+<br>
+<h2>Fixes</h2>
+<br><p>
+From released versions before 1.12.2
+
+#MC-15152 – Standing in a Nether portal and opening a chest will render the chest open until another chest is opened.<br>
+#MC-79154 – Hoppers occasionally duplicate items (within chunks).<br>
+#MC-86850 – Ender Pearling through a Nether portal in the over-world tp's you to the portals Nether coordinates but in the overworld.<br>
+#MC-91803 – Cave / ambience music can play far away from the player and is not audible.<br>
+#MC-104259 – Player / mob stuck on farmland while it changes to dirt.<br>
+#MC-118382 – Parrots do not respawn.<br>
+#MC-118976 – Landing on farmland gets you stuck in flight mode.<br>
+#MC-120444 – Almost any entity inside farmland gets teleported when it turns into dirt.<br>
+#MC-120593 – Items stay in crafting grid when entering Nether portal.<br>
+#MC-120611 – Player stuck in grass path when it changes to dirt.<br>
+  </p>
+</details></button>
+
+<br>
+<br>
+
+
+
+
+<h1>Other Version</h1>
+
+<button><details>
+	<summary>Bedrock Edition Alpha 0.1.0</summary>
+	<a id="hibrok" href="https://yee.pages.dev/games/mcpe/">  Play  </a>
+  <img src="assests/webp/Screenshot 2026-01-02 145119.png" width="100%" height="100%">
+    <img src="https://minecraft.wiki/images/Pocket_Edition.jpg?6d1b3&format=original" width="100%" height="100%">
+  <p>v0.1.0 alpha is the first publicly released version of Minecraft: Pocket Edition. It was released on August 16, 2011. This is the first ever version released in 2011.</p>
+<br>
+<h2>Added</h2><br><p>Randomized worlds<br>
+Placing and destroying blocks<br>
+Ability to invite and play multiplayer on a world (wireless local area network)<br>
+Save multiplayer worlds for offline use with the "Copy World" button in the pause menu.<br>
+Options for high and low spec phones (Called Fancy Graphics and Lower Graphics Quality, respectively)<br>
+Touch Screen controls (officially added in 0.1.1) and auto-jump.<br>
+World generation
+&#9734; Biomes<br>
+
+&#x26AC;Plains<br>
+&#x26AC;Desert<br>
+&#x26AC;Forest<br>
+&#x26AC;Snowy tundra<br>
+&#x26AC;Snowy taiga<br>
+&#9734;Terrain features<br>
+
+&#x26AC;Mountains<br>
+&#x26AC;Floating islands<br>
+&#x26AC;Hollows<br>
+&#x26AC;Hills<br>
+&#x26AC;Erosions<br>
+&#x26AC;Oceans<br>
+&#x26AC;Sand and gravel beaches<br>
+&#x26AC;Trees<br>
+&#x26AC;Oak<br>
+&#9642;Only the small regular variety can generate.<br>
+&#x26AC;Birch<br>
+&#x26AC;Spruce<br>
+&#x26AC;Ore blobs<br>
+&#9642;Dirt<br>
+&#9642;Gravel<br>
+&#9642;Gold ore<br>
+&#9642;Iron ore<br>
+&#9642;Coal ore<br>
+&#9642;Diamond ore<br>
+&#9642;Redstone ore<br>
+&#9642;Lapis lazuli ore<br>
+&#9642;Clay<br>
+&#x26AC;Water and lava springs<br>
+&#x26AC;Random patches<br>
+&#x26AC;Flowers<br>
+&#x26AC;Mushrooms<br>
+&#x26AC;Sugar cane<br>
+&#9734;Camera (but it has no use)<br>
+&#9734;Obsidian<br>
+&#9734;Ladder<br>
+&#9734;Rose<br>
+<span style="color: red;">&#9734;Version exclusive: Has a unique blue texture rose.</span><br>
+ &#9734;Dandelion<br>
+ &#9734;Red Mushroom<br>
+ &#9734;Brown Mushroom<br>
+ &#9734;Sugar Cane<br>
+ &#9734;Dirt<br>
+ &#9734;Oak Stairs<br>
+ &#9734;Cobblestone Stairs<br>
+ &#9734;Stone Slabs<br>
+ &#9734;Sand<br>
+ &#9734;Sandstone<br>
+  &#9734; Leaves = Oak, spruce and birch types.<br>
+ &#9734;Glass<br>
+ &#9734;Stone<br>
+ &#9734;Cobblestone<br>
+ &#9734;Wooden Planks<br>
+ &#9734;Oak Log<br>
+ &#9734;Block of Gold<br>
+ &#9734;Block of Iron<br>
+ &#9734;Block of Diamond<br>
+ &#9734;Bricks<br>
+ &#9734; Torches<br>
+ &#9734;Light Gray Wool<br>
+ &#9734;Gray Wool<br>
+ &#9734;Brown Wool<br>
+ &#9734;Red Wool<br>
+ &#9734;Yellow Wool<br>
+ &#9734;Green Wool<br>
+ &#9734;Lime Wool<br>
+ &#9734;Cyan Wool<br>
+&#9734; Light Blue Wool<br>
+ &#9734;Blue Wool<br>
+ &#9734;Purple Wool<br>
+ &#9734;Pink Wool<br>
+
+
+ &#9734;Bedrock<br>
+ &#9734;Spruce Log<br>
+ &#9734;Birch Log<br>
+ &#9734;Coal Ore<br>
+ &#9734;Iron Ore<br>
+ &#9734;Gold Ore<br>
+ &#9734;Diamond Ore<br>
+ &#9734;Redstone Ore<br>
+ &#9734;Lapis Lazuli Ore<br>
+ &#9734;Ice<br>
+ &#9734;Gravel<br>
+ &#9734;Clay<br>
+ &#9734;TNT<br>
+ &#9734;Water<br>
+ &#9734;Lava<br>
+ &#9734;Snow<br>
+ &#9734;Grass Block<br>
+ &#9734;Farmland<br>
+ &#9734;Oak Door<br>
+ &#9734;Iron Door<br>
+ &#9734;Wood Slab<br>
+ &#9734;Cobblestone Slab<br>
+ &#9734;Sandstone Slab<br>
+ &#9734;Invisible Bedrock = Uses the top Grass Block texture in the inventory.<br>
+ &#9734;Black Wool = A second black wool item with ID 35, likely a placeholder for the yet-to-be-added white wool, can be obtained using external editing. It is identical to the first item but has a separate inventory icon defined in gui_blocks.png.<br>
+ &#9734;Magenta Wool<br>
+ &#9734;Orange Wool<br>
+ &#9734;Fire<br>
+&#9734;Fire currently has no texture associated with it, and thus appears invisible.<br>
+&#9734;Fire spreading mechanics are very buggy, allowing fire to spread to any block.<br>
+</p><br>
+<h2>Fixes</h2>
+<br><p>
+From alpha versions before 0.1.0
+<br><br>
+#Fire is invisible, and due to uninitialized memory, can spread to any block, even if not normally flammable, including air.<br>
+#Stairs are invisible when held<br>
+#Stairs are invisible when within a 16×16×16 chunk-aligned area with no other blocks<br>
+#The game will crash when an attempt to render an item in the hotbar is made<br>
+#TNT will not spawn a primed version of itself in the demo versions (though it tries)<br>
+#The pictures taken by a camera will include its smoke particles.<br>
+  </p>
+</details></button><br><br>
+
+
+<button><details>
+	<summary >Java Edition Indev 20100223</summary>
+	<a id="hibrok" href="assests/eaglercraft.dev_Indev_20100223_WASM.html">  Play  </a>
+  <img src="https://minecraft.wiki/images/Indev_20100223_menu.png?42835&format=original" width="100%" height="100%">
+    <img src="https://minecraft.wiki/images/Indev_20100223.png?44ff9&format=original" width="100%" height="100%">
+  <p>A version of Minecraft Indev was released on February 23, 2010. This was the final version of the Indev phase of development.</p>
+<br>
+<h2>Added</h2><br><p> Paintings having new cosmetic entity.=> Added 19 new paintings by the artist Kristoffer Zetterstrand.
+  Cobblestone => Can now be smelted into stone.<br>
+ Log => Now drops itself instead of planks when broken.
+<br>
+ Water => Improved performance.
+<br>
+ Bread => Now crafted with 3 wheat instead of 6.<br>
+Sheep only drop light gray cloth when punched.<br>
+</p>
+</details></button>
+
+<br><br>
+
+</div>
+
+<div id="Paris" class="tabcontent">
+   <button><details>
+
+
+	<summary>Modpack</summary>
+	<iframe src="https://ismaeltechwastaken.github.io/eg-modpack-launcher/" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe>
+</details></button>
+<br><br>
+
+ <button><details>
+
+
+	<summary>Eaglerforge</summary>
+	<a id="hibrok" href="assests/processed.html">  Play Eaglerforge-Injector </a><br>
+  <a id="hibrok" href="assests/eaglerforge-old.html">  Play Old-Eaglerforge  </a><br>
+  <span style="color: red;"><p>Do not think that <u>Old-Eaglerforge</u> and <u>Eaglerforge-Injector</u> are same. Using same mod may crash your game.</p></span>
+  <img src="assests/webp/EaglerForge-Old.jpg" width="100%" height="100%">
+  <p>EaglerForge is a free, open-source mod loader and API for Minecraft created on JavaScript, enabling players to easily install and run community-made modifications (mods) that add new content, features, or gameplay mechanics, working as a framework to ensure mod compatibility.
+    <i><u>Old-Eaglerforge</u> gives bad performance than <u>Eaglerforge-Injector</u></i>
+  </p>
+<br>
+</details></button>
+<br><br>
+ <button><details>
+
+
+	<summary>Tuff Client</summary>
+	<a id="hibrok" href="assests/eaglercraft.dev_Tuff_Client_WASM.html">  Play </a><br>
+  <img src="assests/webp/Screenshot 2026-01-03 135613.png" width="100%" height="100%">
+  <p>Tuff Client is a client similar to Lunar client's features. This client is especially developed for PVP-Players.
+  </p>
+<br>
+</details></button>
+
+
+<br><br>
+ <button><details>
+
+
+	<summary>EaglyMC (1.20)</summary>
+	<a id="hibrok" href="assests/Eaglymc_offline_u7_WASM.html">  Play </a><br>
+  <img src="assests/webp/Screenshot 2026-01-03 142845.png" width="100%" height="100%">
+  <p>EaglyMC is a modded client created on v1.12 m=which gives you feel of 1.20 by adding mods.
+  </p>
+<br>
+</details></button>
+
+<br><br>
+ <button><details>
+
+
+	<summary>Prismarine Web Client</summary>
+	<a id="hibrok" href="https://mcraft.fun/">  Play </a><br>
+  <img src="assests/webp/Screenshot 2026-01-03 143919.png" width="100%" height="100%">
+  <p>Prismarine Web Client is a client which allow to play server also which dont support eaglercraft.<span style="color: red;">Server version support will be lowe than v1.19</span>
+  </p>
+<br>
+</details></button>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+    <a id="hibrok" href="browse.html">&#127757; Explore mods, servers and plug-ins!</a><br><br>
+  <a id="hibrok" href="https://eaglerforge.github.io/EaglerForgeBuilderNew/">Eaglerforge-Injector Mod Builder</a>
+</div>
+
+<div class="clearfix"></div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+</script>
+      
+</body>
+</html>
